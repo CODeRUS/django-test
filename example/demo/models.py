@@ -70,6 +70,7 @@ class FilesModel(models.Model):
 
     compatible_choices_default = "4.5.0.25"
     compatible_choices = (
+        ("4.6.0.11", "4.6.0.11"),
         ("4.5.0.25", "4.5.0.25"),
         ("4.5.0.24", "4.5.0.24"),
         ("4.5.0.21", "4.5.0.21"),
