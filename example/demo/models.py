@@ -68,8 +68,9 @@ class FilesModel(models.Model):
 
     fs = OverwriteStorage()
 
-    compatible_choices_default = "4.6.0.15"
+    compatible_choices_default = "5.0.0.72"
     compatible_choices = (
+        ("5.0.0.72", "5.0.0.72"),
         ("5.0.0.67", "5.0.0.67"),
         ("4.6.0.15", "4.6.0.15"),
         ("4.5.0.25", "4.5.0.25"),
